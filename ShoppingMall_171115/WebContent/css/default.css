@@ -1,0 +1,107 @@
+@CHARSET "UTF-8";
+
+body {
+	margin: 0px;
+	padding: 0px;
+	font-size: 0.75em;
+	line-height: 1.2em;
+	color: #333;
+	max-width: 1000px;
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+} /*배경색 #898989 밖여백 0 안여백 0 글자크기 0.75em
+줄간격 1.2em 글자색 #333*/
+a:LINK {
+	text-decoration: none;
+	color: #333;
+	margin-left: 10px;
+	
+}
+/* a링크를 데코 없이 글자색 #333  */
+#header_Login a:hover {
+	color: #F90
+}
+/* a링크를 마우스 오버햇을 때 글자색 */
+header {
+	height: 115px;
+	margin: 0px;
+	padding: 0px;
+	min-width: 700px;
+}
+/* 헤더 */
+.clear {
+	clear: both;
+}
+
+
+#header_Login {
+	font-size: 1.2em;
+	float: right;
+	list-style: none;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+/* 맨위 로그인 라인 */
+
+
+
+#header_Login li {
+	float: left;
+	margin: 0 10px;
+}
+/*로그인 정렬 왼쪽 밖여잭 0 5px*/
+#header_menu li {
+	float: left;
+	margin: 0 10px;
+	list-style: none;
+}
+
+#header_logo {
+	margin-left: 20px;
+	z-index: 10;
+}
+
+#header_logo img{
+	width: 100px !important;
+	height: 100px !important;
+	margin-top: 10px;
+	
+}
+
+
+#header_menu {
+	font-size: 1.5em;
+	margin-left: 10px;
+	margin-top: -40px;
+	float: right;
+}
+
+footer {
+	margin: 50px 20px 0 0;
+	height: 80px;
+	line-height: 0.7em;
+	min-width: 700px;
+}
+
+footer hr {
+	margin: 0 0 0 20px
+}
+
+footer #footer_logo {
+	margin-left: 30px;
+}
+
+footer #footer_info {
+	margin-left: 120px;
+	margin-top: -90px;
+}
+
+footer #bank {
+	margin-left: 400px;
+	margin-top: -150px;
+}
+
+footer #social {
+	float: right;
+}
